@@ -1,0 +1,12 @@
+# Ignore only the large .keras and .h5 model files in that folder
+Final Model-Generated Hands/*.keras
+Final Model-Generated Hands/*.h5
+
+# Also ignore large models anywhere else (safety)
+*.keras
+*.h5
+
+# Ignore large zip files and Python cache
+*.zip
+__pycache__/
+*.pyc
